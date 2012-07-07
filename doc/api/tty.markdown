@@ -22,7 +22,7 @@ Returns `true` or `false` depending on if the `fd` is associated with a
 terminal.
 
 
-## tty.setRawMode(mode)
+## process.stdin.setRawMode(mode)
 
 Deprecated. Use `tty.ReadStream#setRawMode()`
 (i.e. `process.stdin.setRawMode()`) instead.
